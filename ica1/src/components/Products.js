@@ -34,7 +34,7 @@ export default function Products(){
             </div>
             <div className="item3">
                 {
-                //cart
+                <Cart cartItems={cartItems} />
                 }
             </div>
         </>
